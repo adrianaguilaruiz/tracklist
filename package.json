@@ -1,0 +1,23 @@
+{
+  "name": "tracklist",
+  "version": "1.0.0",
+  "description": "tracklist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianaguilaruiz/tracklist.git"
+  },
+  "keywords": [],
+  "author": "Adriana Aguilar Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianaguilaruiz/tracklist/issues"
+  },
+  "homepage": "https://github.com/adrianaguilaruiz/tracklist#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

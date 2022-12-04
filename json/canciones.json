@@ -7,7 +7,8 @@
             "album": "La Lengua Chivata",
             "fecha": "2014",
             "caratula": "https://www.lahiguera.net/musicalia/artistas/el_canijo_de_jerez/disco/6234/portada-m.jpg",
-            "genero": "Rock"
+            "genero": "Rock",
+            "enlace": "https://www.youtube.com/watch?v=2_j3WLCJ10M&ab_channel=ElCanijoJerez"
         },
         {
             "id": "2",
@@ -16,7 +17,8 @@
             "album": "Buitres de Ciudad",
             "fecha": "2012",
             "caratula": "https://www.insonoro.com/imagenes/caratulas/trifulca-buitres_de_ciudad.jpg",
-            "genero": "Rock"
+            "genero": "Rock",
+            "enlace": "https://www.youtube.com/watch?v=__vMu6edVZE&ab_channel=joemasterson"
         },
         {
             "id": "3",
@@ -25,7 +27,8 @@
             "album": "Carne de Canción",
             "fecha": "2009",
             "caratula": "https://www.lahiguera.net/musicalia/artistas/la_cabra_mecanica/disco/2512/portada-m.jpg",
-            "genero": "Pop, rock"
+            "genero": "Pop, rock",
+            "enlace": "https://www.youtube.com/watch?v=R-zHQKiFJXM&ab_channel=LichisOficial"
         },
         {
             "id": "4",
@@ -34,7 +37,8 @@
             "album": "Flowers",
             "fecha": "1998",
             "caratula": "https://m.media-amazon.com/images/I/418TP9X3R0L.jpg",
-            "genero": "Pop"
+            "genero": "Pop",
+            "enlace": "https://www.youtube.com/watch?v=FZJwoEVCMY8&ab_channel=AceofBase"
         },
         {
             "id": "5",
@@ -43,7 +47,8 @@
             "album": "Lo Que Aletea en Nuestras Cabezas",
             "fecha": "2015",
             "caratula": "https://www.lahiguera.net/musicalia/artistas/robe/disco/6888/portada-m.jpg",
-            "genero": "Rock"
+            "genero": "Rock",
+            "enlace": "https://www.youtube.com/watch?v=uKhnwdijf-8&ab_channel=robeextremoVEVO"
         },
         {
             "id": "6",
@@ -52,7 +57,8 @@
             "album": "Echoes, Silence, Patience & Grace",
             "fecha": "2007",
             "caratula": "https://www.lahiguera.net/musicalia/artistas/foo_fighters/disco/2917/portada-m.jpg",
-            "genero": "Hard rock"
+            "genero": "Hard rock",
+            "enlace": "https://www.youtube.com/watch?v=SBjQ9tuuTJQ&ab_channel=foofightersVEVO"
         },
         {
             "id": "7",
@@ -61,7 +67,8 @@
             "album": "El Árbol y El Bosque",
             "fecha": "2020",
             "caratula": "https://www.lahiguera.net/musicalia/artistas/rozalen/disco/10793/portada-m.jpg",
-            "genero": "Pop, rock, folk"
+            "genero": "Pop, rock, folk",
+            "enlace": "https://www.youtube.com/watch?v=CsnTVgXFOn8&ab_channel=rozalenVEVO"
         },
         {
             "id": "8",
@@ -70,7 +77,8 @@
             "album": "A Night at the Opera",
             "fecha": "1975",
             "caratula": "https://m.media-amazon.com/images/I/51h786SuyIL._AC_.jpg",
-            "genero": "Rock progresivo, Hard rock, Art rock, Power ballad"
+            "genero": "Rock progresivo, Hard rock, Art rock, Power ballad",
+            "enlace": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&ab_channel=QueenOfficial"
         },
         {
             "id": "9",
@@ -79,7 +87,8 @@
             "album": "The Final Countdown",
             "fecha": "1986",
             "caratula": "https://i.discogs.com/Ke9lE9AY5aXr6XeqSih9ycmJ1QkjpErUl9YrqcIw9mk/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDEz/MS0xNjE2MTQ4NTc5/LTM5NDYuanBlZw.jpeg",
-            "genero": "Glam metal, Hard rock"
+            "genero": "Glam metal, Hard rock",
+            "enlace": "https://www.youtube.com/watch?v=9jK-NcRmVcw&ab_channel=EuropeVEVO"
         },
         {
             "id": "10",
@@ -88,7 +97,8 @@
             "album": "Cabaret",
             "fecha": "2002",
             "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbUYADhDiy7rGVbVqKthwZejXpPVN3lm-W1-ty7ghlfw&s",
-            "genero": "House, Latin"
+            "genero": "House, Latin",
+            "enlace": "https://www.youtube.com/watch?v=8Ib1yZVNhYU&ab_channel=LePrestigeD%C3%A9licieuxGrooves"
         }
     ]
 }

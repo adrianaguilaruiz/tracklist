@@ -20,11 +20,22 @@ fetchSongsJson().then(songs =>{
         let date = songs.canciones[index].fecha;
         let img = songs.canciones[index].caratula;
         let genre = songs.canciones[index].genero;
+        let link = songs.canciones[index].enlace;
 
         songsSection.innerHTML += `
-
+        <div class="card" style="width: 16rem;">
+            <img src="${img}" class="card-img-top" alt="Carátula del álbum al que pertenece la canción">
+            <div class="card-body" class="backCard">
+                <h4 class="card-title">${track}</h4>
+                <h6 class="card-title">Artista/Grupo: ${artist}</h6>
+                <h6 class="card-title">Álbum: ${album} (${date})</h6>
+                <h8 class="card-title">Género musical: ${genre}</h8>
+            </div>
+            <div class="card-body">
+            <a href="${link}" class="card-link" target="_blank">YouTube</a>
+            </div>
+        </div>
         `
-
-        console.log(songs.canciones[index].tema);
     }
 })
+

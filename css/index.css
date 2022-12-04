@@ -1,0 +1,60 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;   
+}
+
+h1 {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.songCards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #528CC7;
+}
+
+.card-link {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 3% !important;
+}
+
+/* a:link {
+    color: #FFFFFF;
+} */
+
+/* a:visited {
+    color: #87106d;
+} */
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #B2B6B6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

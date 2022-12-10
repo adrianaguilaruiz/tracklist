@@ -4,11 +4,11 @@
 
 .header {
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 h1 {
-    margin-left: 50px;
+    margin-left: 300px;
     font-weight: bold;
 }
 
@@ -38,14 +38,6 @@ h1 {
     bottom: 3% !important;
 }
 
-/* a:link {
-    color: #FFFFFF;
-} */
-
-/* a:visited {
-    color: #87106d;
-} */
-
 a:hover {
     color: #000000;
 }
@@ -54,7 +46,39 @@ a:active {
     color: #B2B6B6;
 }
 
-footer {
+.formSection {
     display: flex;
     justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    font-size: 11px;
+    font-style: italic;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.5px solid #000000;
+    background-color: #B2B6B6;
+}
+
+.socialMedia, .copyright {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.iconTwitter, .iconLinkedin {
+    width: 1em;
+    height: 1em;
+    font-size: 25px;
+    padding: 5px;
+    color:#528CC7;
 }

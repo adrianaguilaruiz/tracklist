@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link rel="stylesheet" href="./css/index.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
-        </style>
-        <title>Lista de canciones</title>
+        <title>Lista de canciones AAR</title>
     </head>
-
     <body>
         <header>
             <div class="header">
@@ -20,21 +20,38 @@
             </div>
         </header>
         <main>
-            <div id="songSection" class="songCards">
+            <section id="songSection" class="songCards">
                 
-            </div>
-            <form action="" class="formAddSong">
-                <h3 class="formTitle">¡Añade tu canción!</h3>
-                <input type="text" class="formInput" placeholder="Escribe el título de la canción">
-                <label for="" class="formLabel">Título</label><br>
-                <input type="text" class="formInput" placeholder="Escribe el nombre del artista o grupo">
-                <label for="" class="formLabel">Artista/Grupo</label><br>
-                <input type="text" class="formInput" placeholder="Añade el link a videoclip en YouTube">
-                <label for="" class="formLabel">Link YouTube</label><br>
-                <input type="submit" class="formSubmit">
-            </form>
+            </section>
+            <section class="formSection">
+                <form action="" id="formAddSong" method="POST">
+                    <h3>¡Añade tu canción!</h3>
+                        <label for="">Título</label><br>
+                        <input type="text" id="title" name="tema" placeholder="Escribe el título de la canción" required><br>
+                        <label for="">Artista/Grupo</label><br>
+                        <input type="text" id="artist" name="artista" placeholder="Escribe el nombre del artista o grupo" required><br>
+                        <label for="">Género musical</label><br>
+                        <input type="text" id="genre" name="genero" placeholder="Escribe el género musical" required><br>
+                        <label for="">Link YouTube</label><br>
+                        <input type="text" id="link" name="enlace" placeholder="Añade el link a videoclip en YouTube" required><br>
+                        <button type = "submit" id="buttonNewSong">Añadir</button>
+                        <button type="reset">Restablecer</button>
+                </form>
+            </section>
         </main>
-        <footer>© Copyright 2022</footer>
+        <footer>
+            <div class="socialMedia">
+                <a href="https://twitter.com/Adrianagru" alt="Icono red social Twitter con enlace" target="_blank">
+                    <i class="bi bi-twitter iconTwitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adriana-aguilar-ruiz/" alt="Icono red social LinkedIn con enlace" target="_blank">
+                    <i class="bi bi-linkedin iconLinkedin"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>© Copyright 2022</p>
+            </div>
+        </footer>
         
         <script src="./js/index.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

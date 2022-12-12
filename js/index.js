@@ -26,7 +26,6 @@ fetchSongsJson().then(songs =>{
             <div class="card-body" class="backCard">
                 <h4 class="card-title">${track}</h4>
                 <h6 class="card-title">Artista/Grupo: ${artist}</h6>
-                <h6 class="card-title">Álbum: ${album} (${date})</h6>
                 <h8 class="card-title">Género musical: ${genre}</h8>
             </div>
             <div class="card-body">

@@ -42,26 +42,24 @@ This project displays a list of songs using a fake REST API where you can add ne
 Clone the project
 
 ```bash
-  git clone https://github.com/adrianaguilaruiz/tracklist
+git clone https://github.com/adrianaguilaruiz/tracklist
 ```
 
-Go to the project directory
+Go to the project directory:
 
-```bash
-  cd tracklist
-```
+File/Open Folder.../tracklist
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  cd json
-  json-server --watch canciones.json
+cd json
+json-server --watch canciones.json
 ```
 
 

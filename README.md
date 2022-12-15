@@ -42,12 +42,14 @@ This project displays a list of songs using a fake REST API where you can add ne
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/adrianaguilaruiz/tracklist
+git clone https://github.com/adrianaguilaruiz/tracklist.git
 ```
 
-### 2. Go to the project directory:
+### 2. Go to the project directory
 
-File/Open Folder.../tracklist
+```bash
+cd tracklist
+```
 
 ### 3. Install dependencies
 

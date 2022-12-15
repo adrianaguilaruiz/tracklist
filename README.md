@@ -57,10 +57,15 @@ cd tracklist
 npm install
 ```
 
-### 4. Start the server
+### 4. Go to the json directory
 
 ```bash
 cd json
+```
+
+### 5. Start the server
+
+```bash
 json-server --watch canciones.json
 ```
 

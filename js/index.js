@@ -1,4 +1,4 @@
-const requestURL = '../json/canciones.json';
+const requestURL = './json/canciones.json';
 //Llamada asíncrona para que lea todos los datos antes de continuar
 async function fetchSongsJson(){
     const response = await fetch(requestURL);

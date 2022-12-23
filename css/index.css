@@ -2,14 +2,15 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
 }
 
 h1 {
-    margin-left: 300px;
     font-weight: bold;
+    margin-left: 50px;
+    text-align: center;
 }
 
 .songCards {

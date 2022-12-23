@@ -39,26 +39,33 @@ This project displays a list of songs using a fake REST API where you can add ne
 
 # How to install this project
 
-Clone the project
+### 1. Clone the project
 
 ```bash
-git clone https://github.com/adrianaguilaruiz/tracklist
+git clone https://github.com/adrianaguilaruiz/tracklist.git
 ```
 
-Go to the project directory:
+### 2. Go to the project directory
 
-File/Open Folder.../tracklist
+```bash
+cd tracklist
+```
 
-Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the server
+### 4. Go to the json directory
 
 ```bash
 cd json
+```
+
+### 5. Start the server
+
+```bash
 json-server --watch canciones.json
 ```
 

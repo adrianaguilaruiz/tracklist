@@ -39,6 +39,8 @@ This project displays a list of songs using a fake REST API where you can add ne
 
 # How to install this project
 
+You will need a text editor and perform the following steps:
+
 ### 1. Clone the project
 
 ```bash
@@ -68,6 +70,14 @@ cd json
 ```bash
 json-server --watch canciones.json
 ```
+
+***
+# Next Steps
+
+- Improve css design
+- Validate required fields on the form to add a new song
+- Improve the view in mobile mode
+- Implement dark mode
 
 
 
